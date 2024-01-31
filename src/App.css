@@ -1,0 +1,16 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  
+}
+.bgText{
+  color:#1D5879;
+}
+.bg{
+  background-color: #1D5879;
+}
+.bgRed{
+  background-color: rgb(205, 5, 5);
+}

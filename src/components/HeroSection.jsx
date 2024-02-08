@@ -1,8 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import home from '../images/home.jpeg'
-import home2 from '../images/home-2.jpeg'
-import home3 from '../images/home-3.jpeg'
+import home from '../images/homenewcompress.jpeg'
+import home2 from '../images/home-2newcompress.jpeg'
+import home3 from '../images/home-3newcompress.jpeg'
 import '../styles/HeroSection.Module.css'
 function HeroSection() {
   return (
@@ -19,7 +19,7 @@ function HeroSection() {
   <div className="carousel-inner">
     <div className="carousel-item active ">
       
-      <img loading='lazy' src={home} className="w-100 d-block" alt="home image" style={{fill:'true'}} />
+      <img  loading='lazy' src={home} className="w-100 d-block" alt="home image" style={{fill:'true'}} />
       
       <div className="carousel-caption" >
         <h5>Your Dream Building</h5>

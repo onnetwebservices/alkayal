@@ -3,6 +3,7 @@ import preamble from '../images/preamble.webp'
 import '../styles/About.Module.css'
 import { aboutdata} from '../data/sdata'
 import Accordian from '../components/Accordian'
+import Activities from '../components/Activities'
 function About() {
   return (
     <>
@@ -12,7 +13,7 @@ function About() {
       </div>
      
           <div className="row">
-      <div className="col-md-10 col-lg-12 col-sm-12 col-12 mx-auto p-3">
+      <div className="col-md-12 col-lg-12 col-sm-12 col-12 mx-auto p-3">
 
       <div className="accordion" id="accordionExample">
 {
@@ -26,6 +27,11 @@ function About() {
   
         
     </div>    
+      </div>
+      <div className="row">
+        <div className="col">
+          <Activities />
+        </div>
       </div>
      
        </div>

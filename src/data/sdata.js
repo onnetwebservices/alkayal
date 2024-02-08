@@ -11,7 +11,7 @@ export const sdata=[
    {
       id:'2',
     name:'Civil Department',
-    Iconstyle:{Icontitle:BiAlarm},
+    Iconstyle:{Icontitle:BiSolidComponent},
     title:'Civil Department',
     desc:"Responsible for all the civil works right from demarcation up to handing over to local authorities, passing through earth works, RCC works, block works, plaster and finishes works, wooden works, aluminum works, external works (paving interlock, kerbstone,...) compound wall works,etc...",
     style:{bgColor:'bg',text:'text-white',iconbg:'bg-white' ,icontext :'bgText'}

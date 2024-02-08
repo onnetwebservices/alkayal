@@ -10,7 +10,7 @@ function ServiceSection() {
       <div className="text-center p-4" data-aos='fade-in'>
         <h1 className='bgText fw-bold'>Our Services</h1>
       </div>
-      < div className="row gy-5 p-3 d-flex align-items-center justify-content-center">
+      < div className="row gy-5 p-5 d-flex align-items-center justify-content-center">
        
         
       {

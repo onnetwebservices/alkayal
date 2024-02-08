@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import {NavLink} from 'react-router-dom'
 import '../styles/Navbar.Module.css'
 import logo from '../images/logo.jpg'
+import logomedium from '../images/logomedium.jpg'
+import logosmall from '../images/logosmall.jpg'
+import logocrop from '../images/logocrop.jpg'
 
 function Navbar() {
+  
+  
   return (
     <div  className='container-fluid nav_bg '>
         <div className="row ">
@@ -15,7 +20,23 @@ function Navbar() {
     
     <NavLink to='/' className="navbar-brand "  >
     
-    <img  src={logo} alt="alkayal logo" className="image-fluid logo" style={{fill:'true'}} />
+    {/* <img  src={logo} alt="alkayal logo" className="image-fluid logo" style={{fill:'true'}} />*/ }
+    
+      <img
+      srcSet={`
+              ${logo} 1200w, 
+              ${logomedium} 600w,
+              ${logosmall} 400w,
+              ${logocrop}  300w,
+                    `}
+      
+      
+      className='image-fluid  logo'
+      style={{fill:'true'}}
+      alt='logo image'
+      />
+      <img src={logocrop} className='logocollapse' alt='logo image'></img>
+    
       
 
         </NavLink>

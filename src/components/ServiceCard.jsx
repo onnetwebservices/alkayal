@@ -16,7 +16,7 @@ function ServiceCard({style,Icon,title,desc,id}) {
         <Icon className={`${style.iconbg ? style.iconbg : 'bg' } ${style.icontext ? style.icontext : 'text-white'} rounded p-2 mb-2 icon`} size={35} ></Icon>
         <h2 className="card-title text-white">{title}</h2>
         
-        <NavLink to={`/service/${id}`} className="btn bgText " style={{backgroundColor:'white'}}>Learn More</NavLink>
+        <NavLink to={`/service/${id}`} className="btn bgText fw-bold " style={{backgroundColor:'white',color:'#1D3659'}}>view service</NavLink>
       </div>
     </div>
       </div>

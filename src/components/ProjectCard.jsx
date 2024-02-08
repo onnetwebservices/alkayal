@@ -1,5 +1,5 @@
 import React from 'react'
-import home from '../images/home.jpeg'
+import home from '../images/homenewcompress.jpeg'
 
 function ProjectCard({title}) {
   return (

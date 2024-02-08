@@ -1,13 +1,21 @@
 import React from 'react'
 import home from '../images/home.jpeg'
 import home2 from '../images/home-2.jpeg'
-import home3 from '../images/home-3.jpeg'
+import home3 from '../images/home-3newcompress.jpeg'
 import '../styles/Activities.Module.css'
 import { NavLink } from 'react-router-dom'
 
 function Activities() {
   return (
     <>
+       <div className='container-fluid my-5 bg-light'>
+      <div className="text-center p-4" data-aos='fade-in'>
+        <h2 className='bgText fw-bold fs-3'>Contracting Activities</h2>
+      </div>
+    
+      <div className=" p-4" data-aos='fade-in'>
+        <h2 className='bgText fw-light fs-4'>Civil, Mechanical and Electrical Contracting </h2>
+      </div>
     
 
       <div id="carouselExampleCaption" className="carousel slide"
@@ -102,7 +110,7 @@ function Activities() {
 
 
 
-
+</div>
  
     </>
   )

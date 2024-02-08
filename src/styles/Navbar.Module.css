@@ -10,10 +10,16 @@
 .navbar-toggler {
     padding:0;
     margin:0;
-    border:1px;
+    color:brown;
     width:30px;
     height: 30px;
     padding-top: 0;
+    border:none;
+    border:1px solid brown;
+
+}
+.navbar-toggler-icon{
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
 
 
@@ -26,6 +32,9 @@
     width:400px;
     height:71px;
     object-fit:cover;
+}
+.logocollapse{
+    display:none;
 }
 .navbar a{
     font-size: 1.3rem;
@@ -48,12 +57,14 @@
     .logo{
         
       width:350px;
+      aspect-ratio: 1 / 1;
        object-fit: contain; 
     }
 }
 @media only screen and (max-width: 490px){
     .logo{
-      width:290px;
+      width:300px;
+      aspect-ratio: 1 / 1;
       object-fit: contain;  
     
     }
@@ -63,7 +74,7 @@
 }
 @media only screen and (max-width: 390px){
     .logo{
-        width:270px;
+        width:265px;
         aspect-ratio: 1 / 1;       
         object-fit: contain;
         
@@ -75,7 +86,7 @@
 }
 @media only screen and (max-width: 360px){
     .logo{
-        width:240px;
+        width:260px;
         aspect-ratio: 1 / 1;       
         object-fit: contain;
         
@@ -89,9 +100,25 @@
     .logo{
         width:180px;
         aspect-ratio: 1 / 1;
-        object-fit: contain;
+        object-fit: scale-down;
+        display:none;
         
     }
+    .logocollapse{
+        width:90px;
+        height:71px;
+        aspect-ratio: 1 / 1;
+        object-fit: scale-down;
+        display:inline-flex;
+        justify-content: center;
+    }
+    .navbars{
+        justify-content: space-between;
+    }
+   
+   
+    
+
 }
 
 

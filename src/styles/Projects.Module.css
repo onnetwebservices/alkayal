@@ -84,3 +84,11 @@ h2{
     }
    
  }
+ 
+@media only screen and (max-width: 290px) {
+   
+    .grid{
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    }
+   
+ }

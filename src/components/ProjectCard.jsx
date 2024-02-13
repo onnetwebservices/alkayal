@@ -1,5 +1,6 @@
 import React from 'react'
 import home from '../images/homenewcompress.jpeg'
+import { NavLink } from 'react-router-dom'
 
 function ProjectCard({title}) {
   return (
@@ -11,7 +12,7 @@ function ProjectCard({title}) {
             <div className="cards-body slide-right">
                 <h2 className="text-center">{title}</h2>
                 
-                <a href="/projects" className="btn btn-danger">View Photos</a>
+                <NavLink to="/projects" className="btn btn-danger">View Photos</NavLink>
             </div>
        </div>
        </div>
